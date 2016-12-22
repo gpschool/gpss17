@@ -1,14 +1,14 @@
 # Site settings
-title: Conference Name, Year
-email: your-email@domain.com
+title: Gaussian Process and Uncertainty Quantification Summer School, 2017
+email: 
 description: > # this means to ignore newlines until "baseurl:"
   Write a description for your conference or meeting here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/confweb" # the subpath of your site, e.g. /blog/
-url: "http://opendsi.cc" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  sods
+baseurl: "/gpss17" # the subpath of your site, e.g. /blog/
+url: "http://gpss.cc" # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  gpschool
 
 
 youtube:
@@ -17,7 +17,7 @@ youtube:
 
 github:
   edit: true
-  repository: confweb
+  repository: gpss17
   
 markdown: kramdown
 
@@ -25,11 +25,11 @@ markdown: kramdown
 future: true
 
 permalink: "/:categories/:title.html"
-banner: nice_conference_banner.jpeg
+banner: 
 
 analytics:
  google:
-   tracking_id: # Google tracking ID if applicable
+   tracking_id: UA-62991754-1 # Google tracking ID if applicable
 
 youtube:
   height: 315
@@ -43,35 +43,23 @@ conference:
   room: Room
   venue: Convention Centre
   location: City, Country
-  name: Conference Name
+  name: Gaussian Process and Uncertainty Quantification Summer School
   year: 2017
   month: September
   dates:
+  - 2017-09-11
   - 2017-09-12
   - 2017-09-13
-  draft: true # set to True if the programme is draft only.
-  hosts:
-  general:
-  - name: Jack Jones
-    url: "http://jackjones.org"
-  - name: Bill Bloggs
-    url: "http://billblogs.org"
-  workshop:
-  - name:
-    url:
-  symposium:
-  - name:
-    url:
-    institute:
-  local:
-  - name:
-    url:
+  - 2017-09-14
+  organizers:
+  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/"}
+  - {name: Richard Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/"}
+  - {name: Jeremy Oakley, url: "http://www.jeremy-oakley.staff.shef.ac.uk/"}
+  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
+  - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   sponsors:
   - name:
     url:
-previous_meeting:
-  name:
-  url:
 
 map:
   show: False

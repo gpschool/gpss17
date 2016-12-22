@@ -1,9 +1,29 @@
 <header class="site-header">
+  <table summary="Header Table"><tr>
+      <td id="headerLeft">
+	<div id="headerCrest">
+    <a href="{{ site.url }}/"><img src="{{ site.url }}/gpss_logo.svg" width="150" alt="Logo" /></a>
+	</div>
+      </td>
+      <td id="headerRight">
+	<!-- page heading  -->
+	<div id="headerTitle">
+	  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+	</div>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      </td>
+      <td>
+      	  <div class="site-sub-title">IUDICIUM POSTERIUM DISCIPULUS EST PRIORIS</div>
+	<!-- // page heading -->
+      </td>
+    </tr>
+  </table>
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    {% if site.banner or page.banner %}<div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "/assets/" }}{% endif %}" class="header-image" width="1280" height="290" alt="{{ site.title }}"></div>{% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -15,11 +35,14 @@
       </a>
 
       <div class="trigger">
-        {% assign pages = site.pages | sort:"weight"  %}     
-        {% for p in pages%}
-          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-  	{% endfor %}
-        <a class="page-link" href="{{ site.previous_meeting.url }}">{{ site.previous_meeting.name }}</a> 
+	<!--<a class="page-link" href="{{ site.url }}">Home</a>-->
+      <!--<a class="page-link" href="http://gpss.cc/gpuqss16/">About</a>-->
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <a class="page-link" href="http://gpss.cc/">Main Site</a>
       </div>
     </nav>
 
