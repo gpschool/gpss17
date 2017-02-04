@@ -52,11 +52,11 @@ conference:
   - 2017-09-13
   - 2017-09-14
   organizers:
-  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Amazon Cambridge Research}
+  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Amazon Research Cambridge}
   - {name: Mauricio Alvarez, url: "https://sites.google.com/site/maalvarezl/", institute: University of Sheffield}
   - {name: Richard Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Sheffield}
   - {name: Jeremy Oakley, url: "http://www.jeremy-oakley.staff.shef.ac.uk/", institute: Amazon Cambridge Research}
-  - {name: Neil Lawrence, url: "http://inverseprobability.com", institute: Amazon Cambridge Research and University of Sheffield}
+  - {name: Neil Lawrence, url: "http://inverseprobability.com", institute: Amazon Research Cambridge and University of Sheffield}
   - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   sponsors:
   - name:
