@@ -59,8 +59,8 @@ conference:
   - {name: Neil Lawrence, url: "http://inverseprobability.com", institute: Amazon Research Cambridge and University of Sheffield}
   - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   sponsors:
-  - name:
-    url:
+  - name: Open Data Science Initiative
+    url: http://odsi.cc
 
 previous_meeting:
   name: Previous School
