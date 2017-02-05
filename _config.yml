@@ -63,8 +63,8 @@ conference:
     url:
 
 previous_meeting:
-  name: Gaussian Process Summer School, 2016
-  url: "http://gpss.cc/gpuq16"
+  name: Previous School
+  url: "http://gpss.cc/gpuqss16"
 
 map:
   show: False

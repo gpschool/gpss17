@@ -42,6 +42,9 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+	{% if site.previous_meeting %}  
+          <a class="page-link" href="{{ site.previous_meeting.url }}">{{ site.previous_meeting.name }}</a>
+	{% endif %}
         <a class="page-link" href="http://gpss.cc/">Main Site</a>
       </div>
     </nav>
