@@ -72,5 +72,19 @@ talks:
   start: "14:30"
   end: "15:00"
   youtube: 
+- title:
+  abstract:
+  author:
+  - family: Turner 
+    given: Richard
+    url: "http://www.eng.cam.ac.uk/profiles/ret26"
+    institute: "University of Cambridge"
+  start: "15:00"
+  end: "16:00"
+  youtube: 
+- title:
+  speaker: Panel and Dicussion
+  start: "16:00"
+  end: "17:00"
   
 ---
