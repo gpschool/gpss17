@@ -1,6 +1,6 @@
 ---
 title:  "Advances in Approximate Inference with GPs"
-layout: multitrack
+layout: singletrack
 tagline: 
 show_abstracts: true
 room: "PLB-DS05, Pam Liversidge Building"
@@ -8,22 +8,18 @@ talks:
 - title: "Arrivals"
   start: "8:00"
   end: "9:00"
-- title: "Welcome"  
-  author:
-  - family: Lawrence
-    given: Neil
-    url: "http://inverseprobability.com"
-    institute: "University of Sheffield"
+- title: "Welcome"    
+  speaker: Lawrence Neil
+  url: "http://inverseprobability.com"
+  institute: "University of Sheffield"
   abstract:  
   start: "9:00"
   end: "9:15"
   youtube: 
 - title: "TBA"
-  author: 
-  - family: Saul
-    given: Alan   
-    url: "http://www.alansaul.com/"
-    institute: "University of Sheffield"
+  speaker: Saul Alan   
+  url: "http://www.alansaul.com/"
+  institute: "University of Sheffield"
   abstract:
   start: "9:15"
   end: "10:15"
@@ -33,22 +29,18 @@ talks:
   start: "10:15"
   end: "10:30"
 - title: TBA  
-  author:
-  - family: Tran
-    given: Dustin
-    url: "http://dustintran.com/"
-    institute: "Open AI and Columbia University"
+  speaker: Tran Dustin
+  url: "http://dustintran.com/"
+  institute: "Open AI and Columbia University"
   abstract:  
   start: "10:30"
   end: "11:30"
   slides:  
   youtube: 
 - title: "TBA"
-  author:
-  - family: Vehtari
-    given: Aki 
-    url: "https://users.aalto.fi/~ave/"
-    institute: "Aalto University"
+  speaker: Vehtari Aki 
+  url: "https://users.aalto.fi/~ave/"
+  institute: "Aalto University"
   youtube:
   start: "11:30"
   end: "12:30" 
@@ -56,11 +48,9 @@ talks:
   start: "12:30"
   end: "13:30"
 - title: "TBA"
-  author
-  - family: Ranganath
-    given: Rajesh
-    url: "https://www.cs.princeton.edu/~rajeshr/"
-    institute: "Princeton University"
+  speaker: Ranganath Rajesh
+  url: "https://www.cs.princeton.edu/~rajeshr/"
+  institute: "Princeton University"
   abstract:  
   start: "13:30"
   end: "14:30"
@@ -68,11 +58,9 @@ talks:
   start: "14:30"
   end: "15:00"
 - title:
-  author: 
-  - family: Turner
-    given: Richard
-    institute: "University of Cambridge"
-    url: "http://www.eng.cam.ac.uk/profiles/ret26"
+  speaker: Turner Richard
+  institute: "University of Cambridge"
+  url: "http://www.eng.cam.ac.uk/profiles/ret26"
   start: "15:00"
   end: "16:00"
   youtube: 
