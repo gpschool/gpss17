@@ -8,11 +8,13 @@ talks:
 - title: "Arrivals"
   start: "8:00"
   end: "9:00"
-- title: "Welcome"
-  abstract:
-  speaker: "Neil Lawrence"
-  url: "http://inverseprobability.com"
-  institute: University of Sheffield
+- title: "Welcome"  
+  author:
+  - family: Lawrence
+    given: Neil
+    url: "http://inverseprobability.com"
+    institute: University of Sheffield
+  abstract:  
   start: "9:00"
   end: "9:15"
   youtube: 
@@ -69,5 +71,4 @@ talks:
   speaker: Panel and Dicussion
   start: "16:00"
   end: "17:00"
-
 ---
