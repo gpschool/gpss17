@@ -72,7 +72,7 @@ talks:
   start: "14:30"
   end: "15:00"
   youtube: 
-- title:
+- title: "TBA"
   abstract:
   author:
   - family: Turner 
@@ -82,8 +82,7 @@ talks:
   start: "15:00"
   end: "16:00"
   youtube: 
-- title:
-  speaker: Panel and Dicussion
+- title: "Panel and Dicussion"
   start: "16:00"
   end: "17:00"
   
