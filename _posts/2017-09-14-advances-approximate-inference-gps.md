@@ -31,28 +31,18 @@ talks:
   youtube:
 - title: "Coffee Break"
   start: "10:15"
-  end: "10:30" 
-- title: TBA  
+  end: "10:30"
+  youtube: 
+- title: "TBA"  
   abstract:
   author: 
   - family: Tran
     given: Dustin
-  	 url: "http://dustintran.com/"
+    url: "http://dustintran.com/"
     institute: "Open AI and Columbia University"   
   start: "10:30"
   end: "11:30"
   slides:  
-  youtube: 
-- title: "TBA"
-  abstract: 
-  author: 
-  - family: Vehtari
-    given: Aki 
-    url: "https://users.aalto.fi/~ave/"
-    institute: "Aalto University"  
-  start: "11:30"
-  end: "12:30"
-  slides:
   youtube: 
   
 ---
