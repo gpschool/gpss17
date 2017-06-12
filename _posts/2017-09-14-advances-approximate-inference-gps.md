@@ -43,6 +43,20 @@ talks:
   start: "10:30"
   end: "11:30"
   slides:  
+  youtube:
+- title: "TBA"
+  abstract:
+  author:
+  - family: Vehtari 
+    given: Aki 
+    url: "https://users.aalto.fi/~ave/"
+    institute: "Aalto University"  
+  start: "11:30"
+  end: "12:30"
+  youtube: 
+- title: "Lunch"
+  start: "12:30"
+  end: "13:30"
   youtube: 
   
 ---
