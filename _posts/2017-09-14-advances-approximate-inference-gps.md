@@ -1,6 +1,6 @@
 ---
 title:  "Advances in Approximate Inference with GPs"
-layout: singletrack
+layout: multitrack
 tagline: 
 show_abstracts: true
 room: "PLB-DS05, Pam Liversidge Building"
