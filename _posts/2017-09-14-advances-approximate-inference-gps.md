@@ -57,6 +57,20 @@ talks:
 - title: "Lunch"
   start: "12:30"
   end: "13:30"
+  youtube:
+- title: "TBA"
+  abstract:
+  author:
+  - family: Ranganath 
+    given: Rajesh
+    url: "https://www.cs.princeton.edu/~rajeshr/"
+    institute: "Princeton University"    
+  start: "13:30"
+  end: "14:30"
+  youtube:
+- title: "Tea Break"
+  start: "14:30"
+  end: "15:00"
   youtube: 
   
 ---
