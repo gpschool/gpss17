@@ -9,10 +9,10 @@ talks:
   start: "8:00"
   end: "9:00"
 - title: "Welcome"    
-  speaker: Lawrence Neil
+  abstract: 
+  speaker: "Neil Lawrence"
   url: "http://inverseprobability.com"
-  institute: "University of Sheffield"
-  abstract:  
+  institute: "University of Sheffield"   
   start: "9:00"
   end: "9:15"
   youtube: 
