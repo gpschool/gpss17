@@ -40,13 +40,14 @@ talks:
 - title: "TBA"
   speaker: Vehtari Aki 
   url: "https://users.aalto.fi/~ave/"
-  institute: "Aalto University"
-  youtube:
+  institute: "Aalto University"  
   start: "11:30"
-  end: "12:30" 
+  end: "12:30"
+  youtube: 
 - title: "Lunch"
   start: "12:30"
   end: "13:30"
+  youtube:
 - title: "TBA"
   speaker: Ranganath Rajesh
   url: "https://www.cs.princeton.edu/~rajeshr/"
@@ -54,9 +55,11 @@ talks:
   abstract:  
   start: "13:30"
   end: "14:30"
+  youtube:
 - title: "Tea Break"
   start: "14:30"
   end: "15:00"
+  youtube:
 - title:
   speaker: Turner Richard
   institute: "University of Cambridge"
