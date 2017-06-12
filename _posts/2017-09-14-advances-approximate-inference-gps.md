@@ -13,18 +13,18 @@ talks:
   - family: Lawrence
     given: Neil
     url: "http://inverseprobability.com"
-    institute: University of Sheffield
+    institute: "University of Sheffield"
   abstract:  
   start: "9:00"
   end: "9:15"
   youtube: 
 - title: "TBA"
-  abstract:
   author: 
   - family: Saul
     given: Alan   
     url: "http://www.alansaul.com/"
-    institute: University of Sheffield
+    institute: "University of Sheffield"
+  abstract:
   start: "9:15"
   end: "10:15"
   slides:  
@@ -32,13 +32,13 @@ talks:
 - title: "Coffee Break"
   start: "10:15"
   end: "10:30"
-- title: "TBA"
-  abstract:
+- title: TBA  
   author:
   - family: Tran
     given: Dustin
     url: "http://dustintran.com/"
     institute: "Open AI and Columbia University"
+  abstract:  
   start: "10:30"
   end: "11:30"
   slides:  
@@ -55,14 +55,13 @@ talks:
 - title: "Lunch"
   start: "12:30"
   end: "13:30"
-  youtube: 
 - title: "TBA"
-  abstract:
   author
   - family: Ranganath
     given: Rajesh
     url: "https://www.cs.princeton.edu/~rajeshr/"
     institute: "Princeton University"
+  abstract:  
   start: "13:30"
   end: "14:30"
 - title: "Tea Break"
