@@ -28,6 +28,9 @@ talks:
   start: "9:15"
   end: "10:15"
   slides:  
-  youtube:  
+  youtube:
+- title: "Coffee Break"
+  start: "10:15"
+  end: "10:30"  
   
 ---
