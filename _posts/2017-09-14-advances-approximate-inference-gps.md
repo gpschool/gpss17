@@ -1,7 +1,7 @@
 ---
 title:  "Advances in Approximate Inference with GPs"
 layout: multitrack
-tagline: 
+tagline: "Workshop"
 show_abstracts: true
 room: "PLB-DS05, Pam Liversidge Building"
 talks:
@@ -68,4 +68,5 @@ talks:
   speaker: Panel and Dicussion
   start: "16:00"
   end: "17:00"
+  
 ---
