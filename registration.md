@@ -28,5 +28,5 @@ visa. More details regards the visa application can be found
 invitation letter for your visa application, please contact us. (email:
 mauricio.alvarez AT sheffield.ac.uk)
 
-** Due to high demand, registration has now been closed.
+**Due to high demand, registration has now been closed.**
 
