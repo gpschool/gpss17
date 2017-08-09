@@ -28,7 +28,5 @@ visa. More details regards the visa application can be found
 invitation letter for your visa application, please contact us. (email:
 mauricio.alvarez AT sheffield.ac.uk)
 
-### Register at the Online Store
-
-[Register here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-engineering/computer-science/summer-school-in-gaussian-processes-and-uncertainty-quantification-2017)
+** Due to high demand, registration has now been closed.
 
