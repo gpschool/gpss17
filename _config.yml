@@ -74,7 +74,7 @@ map:
     map_id1: maalvarezl # mapbox id1
     map_id2: cj6hz56fb4q9l2rpajqiqw5ki # mapbox id2
     fresh: true
-    title: true
+    title: false
     access_token: pk.eyJ1IjoibWFhbHZhcmV6bCIsImEiOiJjajY1Nmo1b3gxb2d2Mndub2dyeDNsa2IzIn0.qLCz36sKjWARW8EBSy2fAQ # mapbox access token
     zoom_level: 14.5
     width: 100%
