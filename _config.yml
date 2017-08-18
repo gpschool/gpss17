@@ -68,6 +68,7 @@ previous_meeting:
 
 map:
   show: true
+  html: https://api.mapbox.com/styles/v1/maalvarezl/cj6hz56fb4q9l2rpajqiqw5ki.html?title=true&access_token=pk.eyJ1IjoibWFhbHZhcmV6bCIsImEiOiJjajY1Nmo1b3gxb2d2Mndub2dyeDNsa2IzIn0.qLCz36sKjWARW8EBSy2fAQ#14.7/53.386087/-1.472701/0
   mapbox:
     latitude: 53.385396 # latitude of map center
     longitude: -1.472726 # longitude of map center
