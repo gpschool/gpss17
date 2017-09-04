@@ -34,17 +34,8 @@ talks:
   end: "10:30"
   youtube: 
 - title: "Probabilistic Programming with GPs"  
-  abstract:"Probabilistic modeling is a powerful approach for analyzing empirical
-information. In this talk, I will provide an overview of Edward, a
-software library for probabilistic modeling. Formally, Edward is a
-probabilistic programming system built on computational graphs,
-supporting compositions of both models and inference for flexible
-experimentation. Edward is also integrated into TensorFlow, enabling
-large-scale experiments on multi-GPU, multi-machine environments. In
-particular, I will show how to apply Gaussian processes in Edward for
-two purposes: to build deep probabilistic models for representation
-learning and to build flexible variational approximations for accurate
-Bayesian inference."
+  abstract: "Probabilistic modeling is a powerful approach for analyzing empirical information. In   this talk, I will provide an overview of Edward, a software library for probabilistic modeling. Formally, Edward is a probabilistic programming system built on computational graphs, supporting compositions of both models and inference for flexible experimentation. Edward is also integrated into TensorFlow, enabling large-scale experiments on multi-GPU, multi-machine environments. In
+particular, I will show how to apply Gaussian processes in Edward for two purposes: to build deep probabilistic models for representation learning and to build flexible variational approximations for accurate Bayesian inference."
   author: 
   - family: Tran
     given: Dustin
@@ -69,8 +60,7 @@ Bayesian inference."
   end: "13:30"
   youtube:
 - title: "Implicit Models and Posterior Approximations"
-  abstract:"Probabilistic generative models tell stories about how data were generated. These stories uncover hidden patterns (latent states) and form the basis for predictions. Traditionally, probabilistic generative models provide a score for generated samples via a tractable likelihood function. The requirement of the score limits the flexibility of these models. For example, in many physical models we can generate samples, but not compute their likelihood --- such models defined only by their sampling process are called implicit models. In the first part of the talk I will present a family of hierarchical Bayesian implicit models. The main computational task in working with probabilistic generative models is computing the distribution of the latent states given data: posterior inference. Posterior inference cast as optimization over an approximating family is variational inference. The accuracy of variational inference hinges on the expressivity of the approximating family. In the second part of this talk, I will explore the role of implicit distributions in forming variational approximations.
-"
+  abstract: "Probabilistic generative models tell stories about how data were generated. These stories uncover hidden patterns (latent states) and form the basis for predictions. Traditionally, probabilistic generative models provide a score for generated samples via a tractable likelihood function. The requirement of the score limits the flexibility of these models. For example, in many physical models we can generate samples, but not compute their likelihood --- such models defined only by their sampling process are called implicit models. In the first part of the talk I will present a family of hierarchical Bayesian implicit models. The main computational task in working with probabilistic generative models is computing the distribution of the latent states given data: posterior inference. Posterior inference cast as optimization over an approximating family is variational inference. The accuracy of variational inference hinges on the expressivity of the approximating family. In the second part of this talk, I will explore the role of implicit distributions in forming variational approximations."
   author:
   - family: Ranganath 
     given: Rajesh
