@@ -45,8 +45,11 @@ particular, I will show how to apply Gaussian processes in Edward for two purpos
   end: "11:30"
   slides:  
   youtube:
-- title: "TBA"
-  abstract:
+- title: "On Bayesian model selection and model averaging"
+  abstract: "I will provide overview of some recent advances in Bayesian model selection and model averaging in the M-open setting in which the true
+data-generating process is not one of the candidate models. I will
+discuss more specific implementation issues of these methods in case
+of Gaussian process models."
   author:
   - family: Vehtari 
     given: Aki 
