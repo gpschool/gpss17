@@ -1,11 +1,11 @@
 %
-% GPSS'17 appedix -
+% GPSS'17 appendix -
 % Example of Kalman/RTS inference on GP regression problem
 % with the Ornstein-Uhlenbeck covariance function. By SS'17.
 %
 
     %%
-    % Data
+    % Generate the data
     %
     rng(20);
     
@@ -22,7 +22,7 @@
     clf;
     h = plot(X,F,x,y,'o');
     set(h,'LineWidth',2);
-    
+
     %%
     % GP regression solution
     %

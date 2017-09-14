@@ -1,5 +1,5 @@
 %
-% GPSS'17 appedix -
+% GPSS'17 appendix -
 % Symbolic computations for the covariance function and
 % transition density of the OU process. By SS'17. 
 %
@@ -20,7 +20,8 @@
     pretty(Ktau)
     
     %%
-    % Compute the transition density
+    % Compute the transition density. The density is then
+    % p(f(t + Dt) | f(t)) = N(f(t + Dt) | A f(t), Q).
     %
     syms dt q lam s positive;
     
