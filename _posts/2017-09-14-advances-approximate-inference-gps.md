@@ -86,6 +86,7 @@ of Gaussian process models."
   start: "15:00"
   end: "16:00"
   youtube: 
+  slides: richard_sparse_gps.pdf
 - title: "Panel and Dicussion"
   start: "16:00"
   end: "17:00"
