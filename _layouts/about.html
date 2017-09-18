@@ -4,8 +4,8 @@ layout: page
 
 <article>
 	  
-  <p><strong>{{ site.conference.name }} will take place in {{ site.conference.location }} from {{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to  {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}.</strong></p>
-  
+  <p><strong>{{ site.conference.name }} took place in {{ site.conference.location }} from {{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to  {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}.</strong></p>
+  <p>Slides from the summer school and workshop are <a href="https://www.youtube.com/playlist?list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM">now available</a></p>.
   {{ content }}
     
   {% assign sponsorlen = {{ site.conference.sponsors | size }} %}
