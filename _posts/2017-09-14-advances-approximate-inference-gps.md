@@ -17,7 +17,7 @@ talks:
     institute: "University of Sheffield"   
   start: "9:00"
   end: "9:15"
-  youtube:
+  youtube: https://www.youtube.com/watch?v=jKNAPoVfzvo&list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM&index=9
 - title: "TBA"
   abstract:
   author:
@@ -28,11 +28,10 @@ talks:
   start: "9:15"
   end: "10:15"
   slides:  
-  youtube:
+  youtube: https://www.youtube.com/watch?v=jKNAPoVfzvo&list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM&index=10
 - title: "Coffee Break"
   start: "10:15"
-  end: "10:30"
-  youtube: 
+  end: "10:30"  
 - title: "Probabilistic Programming with GPs"  
   abstract: "Probabilistic modeling is a powerful approach for analyzing empirical information. In   this talk, I will provide an overview of Edward, a software library for probabilistic modeling. Formally, Edward is a probabilistic programming system built on computational graphs, supporting compositions of both models and inference for flexible experimentation. Edward is also integrated into TensorFlow, enabling large-scale experiments on multi-GPU, multi-machine environments. In
 particular, I will show how to apply Gaussian processes in Edward for two purposes: to build deep probabilistic models for representation learning and to build flexible variational approximations for accurate Bayesian inference."
@@ -44,7 +43,7 @@ particular, I will show how to apply Gaussian processes in Edward for two purpos
   start: "10:30"
   end: "11:30"
   slides:  
-  youtube:
+  youtube: https://www.youtube.com/watch?v=jKNAPoVfzvo&list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM&index=11
 - title: "On Bayesian model selection and model averaging"
   abstract: "I will provide overview of some recent advances in Bayesian model selection and model averaging in the M-open setting in which the true
 data-generating process is not one of the candidate models. I will
@@ -57,7 +56,7 @@ of Gaussian process models."
     institute: "Aalto University"  
   start: "11:30"
   end: "12:30"
-  youtube: 
+  youtube: https://www.youtube.com/watch?v=jKNAPoVfzvo&list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM&index=12
 - title: "Lunch"
   start: "12:30"
   end: "13:30"
@@ -71,11 +70,10 @@ of Gaussian process models."
     institute: "Princeton University"    
   start: "13:30"
   end: "14:30"
-  youtube:
+  youtube: https://www.youtube.com/watch?v=jKNAPoVfzvo&list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM&index=13
 - title: "Tea Break"
   start: "14:30"
   end: "15:00"
-  youtube: 
 - title: "A Unifying Framework for Sparse Gaussian Process Approximation using Power Expectation Propagation"
   abstract: "The application of GPs is limited by computational and analytical intractabilities that arise when data are sufficiently numerous or when employing non-Gaussian models. A wealth of GP approximation schemes have been developed over the last 15 years to address these key limitations. Many of these schemes employ a small set of pseudo data points to summarise the actual data. We have developed a new pseudo-point approximation framework using Power Expectation Propagation (Power EP) that unifies a large number of these pseudo-point approximations. The new framework is built on standard methods for approximate inference (variational free-energy, EP and power EP methods) rather than employing approximations to the probabilistic generative model itself. In this way all of approximation is performed at `inference time' rather than at `modelling time' resolving awkward philosophical and empirical questions that trouble previous approaches. Crucially, we demonstrate that the new framework includes new pseudo-point approximation methods that outperform current approaches on regression, classification and state space modelling tasks in batch and online settings."
   author:
@@ -85,7 +83,7 @@ of Gaussian process models."
     institute: "University of Cambridge"
   start: "15:00"
   end: "16:00"
-  youtube: 
+  youtube: https://www.youtube.com/watch?v=jKNAPoVfzvo&list=PLpTp0l_CVmgwyAthrUmmdIFiunV1VvicM&index=14
   slides: richard_sparse_gps.pdf
 - title: "Panel and Dicussion"
   start: "16:00"
