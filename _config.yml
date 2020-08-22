@@ -1,6 +1,7 @@
 # Site settings
 title: Gaussian Process and Uncertainty Quantification Summer School, 2017
-email: 
+author:
+  email: 
 description: > # this means to ignore newlines until "baseurl:"
   Write a description for your conference or meeting here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,6 +10,12 @@ baseurl: "/gpss17" # the subpath of your site, e.g. /blog/
 url: "http://gpss.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
 github_username:  gpschool
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: gpss
 
 
 youtube:
@@ -39,9 +46,9 @@ conference:
   draft: false
   hide_tentative: true
   hosts:
-  
-  room: Pam Liversidge Building, PLB-E05
-  venue: The University of Sheffield
+  short_name: GPSS
+  long_name: Gaussian Process Summer School
+  venue: Pam Liversidge Building, PLB-E05, The University of Sheffield
   location: Sheffield, UK
   name: Gaussian Process Summer School
   year: 2017
@@ -51,13 +58,15 @@ conference:
   - 2017-09-12
   - 2017-09-13
   - 2017-09-14
-  organizers:
-  - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Amazon Research Cambridge}
-  - {given: Mauricio, family: Alvarez, url: "https://sites.google.com/site/maalvarezl/", institute: University of Sheffield}
-  - {given: Richard, family: Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Sheffield}
-  - {given: Jeremy, family: Oakley, url: "http://www.jeremy-oakley.staff.shef.ac.uk/", institute: University of Sheffield}
-  - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: Amazon Research Cambridge and University of Sheffield}
-  - {family: Sheffield ML Group, url: "http://sheffieldml.github.io"}
+  chairs:
+  - type: Organizers
+    people:
+    - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Amazon Research Cambridge}
+    - {given: Mauricio, family: Alvarez, url: "https://sites.google.com/site/maalvarezl/", institute: University of Sheffield}
+    - {given: Richard, family: Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Sheffield}
+    - {given: Jeremy, family: Oakley, url: "http://www.jeremy-oakley.staff.shef.ac.uk/", institute: University of Sheffield}
+    - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: Amazon Research Cambridge and University of Sheffield}
+    - {family: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   sponsors:
   - name: The Open Data Science Initiative
     url: http://opendsi.cc
