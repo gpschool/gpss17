@@ -22,7 +22,7 @@ youtube:
   height: 315
   width: 560
 
-github:
+ghub:
   edit: true
   repository: gpss17
   
