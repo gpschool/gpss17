@@ -66,7 +66,8 @@ conference:
     - {given: Richard, family: Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Sheffield}
     - {given: Jeremy, family: Oakley, url: "http://www.jeremy-oakley.staff.shef.ac.uk/", institute: University of Sheffield}
     - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: Amazon Research Cambridge and University of Sheffield}
-    - {family: Sheffield ML Group, url: "http://sheffieldml.github.io"}
+    - consortium: 
+      - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   sponsors:
   - name: The Open Data Science Initiative
     url: http://opendsi.cc
